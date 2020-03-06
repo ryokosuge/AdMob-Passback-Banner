@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0C64A99D8B2A382496A2DF /* Pods_AdMob_Passback_Banner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A94B32CEB761184BCD698F0 /* Pods_AdMob_Passback_Banner.framework */; };
+		75D5E8EC24123578005F2723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5E8EB24123578005F2723 /* AppDelegate.m */; };
+		75D5E8EF24123578005F2723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5E8EE24123578005F2723 /* ViewController.m */; };
+		75D5E8F224123578005F2723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D5E8F024123578005F2723 /* Main.storyboard */; };
+		75D5E8F424123579005F2723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D5E8F324123579005F2723 /* Assets.xcassets */; };
+		75D5E8F724123579005F2723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D5E8F524123579005F2723 /* LaunchScreen.storyboard */; };
+		75D5E8FA24123579005F2723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5E8F924123579005F2723 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15073005759D4D17B6B14F0E /* Pods-AdMob-Passback-Banner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Passback-Banner.debug.xcconfig"; path = "Target Support Files/Pods-AdMob-Passback-Banner/Pods-AdMob-Passback-Banner.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA00510737EBA86682B8DA7 /* Pods-AdMob-Passback-Banner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Passback-Banner.release.xcconfig"; path = "Target Support Files/Pods-AdMob-Passback-Banner/Pods-AdMob-Passback-Banner.release.xcconfig"; sourceTree = "<group>"; };
+		5A94B32CEB761184BCD698F0 /* Pods_AdMob_Passback_Banner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMob_Passback_Banner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D5E8E724123578005F2723 /* AdMob-Passback-Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdMob-Passback-Banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D5E8EA24123578005F2723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D5E8EB24123578005F2723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D5E8ED24123578005F2723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D5E8EE24123578005F2723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D5E8F124123578005F2723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D5E8F324123579005F2723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D5E8F624123579005F2723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D5E8F824123579005F2723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D5E8F924123579005F2723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D5E8E424123578005F2723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0C64A99D8B2A382496A2DF /* Pods_AdMob_Passback_Banner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138EC8E0CCA0223019CC37E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15073005759D4D17B6B14F0E /* Pods-AdMob-Passback-Banner.debug.xcconfig */,
+				3FA00510737EBA86682B8DA7 /* Pods-AdMob-Passback-Banner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		541C050C4BC9DA8DBD26969D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A94B32CEB761184BCD698F0 /* Pods_AdMob_Passback_Banner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D5E8DE24123578005F2723 = {
+			isa = PBXGroup;
+			children = (
+				75D5E8E924123578005F2723 /* AdMob-Passback-Banner */,
+				75D5E8E824123578005F2723 /* Products */,
+				138EC8E0CCA0223019CC37E9 /* Pods */,
+				541C050C4BC9DA8DBD26969D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75D5E8E824123578005F2723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D5E8E724123578005F2723 /* AdMob-Passback-Banner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D5E8E924123578005F2723 /* AdMob-Passback-Banner */ = {
+			isa = PBXGroup;
+			children = (
+				75D5E8EA24123578005F2723 /* AppDelegate.h */,
+				75D5E8EB24123578005F2723 /* AppDelegate.m */,
+				75D5E8ED24123578005F2723 /* ViewController.h */,
+				75D5E8EE24123578005F2723 /* ViewController.m */,
+				75D5E8F024123578005F2723 /* Main.storyboard */,
+				75D5E8F324123579005F2723 /* Assets.xcassets */,
+				75D5E8F524123579005F2723 /* LaunchScreen.storyboard */,
+				75D5E8F824123579005F2723 /* Info.plist */,
+				75D5E8F924123579005F2723 /* main.m */,
+			);
+			path = "AdMob-Passback-Banner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D5E8E624123578005F2723 /* AdMob-Passback-Banner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D5E8FD24123579005F2723 /* Build configuration list for PBXNativeTarget "AdMob-Passback-Banner" */;
+			buildPhases = (
+				6A4467EEFB7472A336931BAC /* [CP] Check Pods Manifest.lock */,
+				75D5E8E324123578005F2723 /* Sources */,
+				75D5E8E424123578005F2723 /* Frameworks */,
+				75D5E8E524123578005F2723 /* Resources */,
+				E7473199E4522F833837BD20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdMob-Passback-Banner";
+			productName = "AdMob-Passback-Banner";
+			productReference = 75D5E8E724123578005F2723 /* AdMob-Passback-Banner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D5E8DF24123578005F2723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ryokosuge;
+				TargetAttributes = {
+					75D5E8E624123578005F2723 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 75D5E8E224123578005F2723 /* Build configuration list for PBXProject "AdMob-Passback-Banner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D5E8DE24123578005F2723;
+			productRefGroup = 75D5E8E824123578005F2723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D5E8E624123578005F2723 /* AdMob-Passback-Banner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D5E8E524123578005F2723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D5E8F724123579005F2723 /* LaunchScreen.storyboard in Resources */,
+				75D5E8F424123579005F2723 /* Assets.xcassets in Resources */,
+				75D5E8F224123578005F2723 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A4467EEFB7472A336931BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMob-Passback-Banner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7473199E4522F833837BD20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMob-Passback-Banner/Pods-AdMob-Passback-Banner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMob-Passback-Banner/Pods-AdMob-Passback-Banner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMob-Passback-Banner/Pods-AdMob-Passback-Banner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D5E8E324123578005F2723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D5E8EF24123578005F2723 /* ViewController.m in Sources */,
+				75D5E8FA24123579005F2723 /* main.m in Sources */,
+				75D5E8EC24123578005F2723 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D5E8F024123578005F2723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D5E8F124123578005F2723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D5E8F524123579005F2723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D5E8F624123579005F2723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D5E8FB24123579005F2723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75D5E8FC24123579005F2723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D5E8FE24123579005F2723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15073005759D4D17B6B14F0E /* Pods-AdMob-Passback-Banner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2F2YEZ5BG;
+				INFOPLIST_FILE = "AdMob-Passback-Banner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryokosuge.admob.passback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D5E8FF24123579005F2723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA00510737EBA86682B8DA7 /* Pods-AdMob-Passback-Banner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2F2YEZ5BG;
+				INFOPLIST_FILE = "AdMob-Passback-Banner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryokosuge.admob.passback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D5E8E224123578005F2723 /* Build configuration list for PBXProject "AdMob-Passback-Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D5E8FB24123579005F2723 /* Debug */,
+				75D5E8FC24123579005F2723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D5E8FD24123579005F2723 /* Build configuration list for PBXNativeTarget "AdMob-Passback-Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D5E8FE24123579005F2723 /* Debug */,
+				75D5E8FF24123579005F2723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D5E8DF24123578005F2723 /* Project object */;
+}
